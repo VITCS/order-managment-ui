@@ -1,0 +1,44 @@
+/* styles.css (or any other name you prefer) */
+
+.container {
+  max-width: 500px; /* Adjust the maximum width as needed */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd; /* Optional border for visual separation */
+  border-radius: 8px; /* Optional border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift */
+  margin-left: 10px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Added spacing between name and quantity */
+li strong {
+  margin-right: 20px;
+  text-align: left;
+}
+
+li span {
+  text-align: right;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  padding: 40px;
+  justify-content: space-between;
+}

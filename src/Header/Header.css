@@ -1,0 +1,28 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: linear-gradient(
+    to right,
+    #ff9900,
+    #ff0000,
+    #6600cc
+  ); /* Set your desired colors */
+  color: #fff; /* Set text color to white or a contrasting color */
+}
+
+.logo-container {
+  margin-right: 20px;
+}
+
+.logo {
+  width: 50px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.header-title {
+  margin: 0;
+}

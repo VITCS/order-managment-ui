@@ -1,0 +1,40 @@
+/* styles.css (or any other name you prefer) */
+
+.container {
+  max-width: 500px; /* Adjust the maximum width as needed */
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd; /* Optional border for visual separation */
+  border-radius: 8px; /* Optional border-radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional box shadow for a subtle lift */
+  margin-left: 10px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  padding: 40px;
+}
+
+.btn {
+  background-color: rgb(224, 222, 238);
+  padding: 14px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+}
